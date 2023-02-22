@@ -1,5 +1,46 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Priyanka Lab 1</title>
+</head>
+<body>
+  <div class="wrapper"> <!--Wrapper-->
+    <header class="header"><h1> Priyanka's Lab for INST 377 </h1></header>
+    <div class="container"> <!--Container-->
+      <div class="left_section box">
+        <h2>Album Names</h2>
+            <ol class="box"> 
+                <li>Punisher - Phebe Bridgers</li>
+                <li>Funeral - Arcade Fire</li>
+                <li>In Rainbows - Radiohead</li>
+                <li>Street FIghter Mas - Kamasi Washington</li>
+                <li>Borderline - Tame Impala</li>
+              </ol>
+      </div>
+      <div class="right_section box">
+        <h2>Image Carousel</h2>
+        <div class="carousel">
+            <button class="prev"> Prev </button>
+            <div class="slides">
+                <div class="carousel_item visible"><img id="slide_1" src="images/CB_1.jpeg" alt="A"></div>
+                <div class="carousel_item hidden"><img id="slide_2" src="images/CB_2.jpeg" alt="B"></div>
+                <div class="carousel_item hidden"><img id="slide_3" src="images/CB_3.jpeg" alt="C"></div>
+                <div class="carousel_item hidden"><img id="slide_4" src="images/CB_4.jpg" alt="D"></div>
+            </div>
+            <button class="next"> Next </button>
+        </div>
+          <div class="box">
+            Description of images
+          </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <footer class="footer"><a href="http://github.com/prigupkh/INST377-Lab-Work" target="_blank" rel="noopener noreferrer"> Pri's Github account</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
